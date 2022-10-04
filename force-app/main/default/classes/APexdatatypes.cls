@@ -23,7 +23,9 @@ public with sharing class APexdatatypes {
             cs.origin = 'Phone';
             cs.status = 'New';
             cs.subject = 'my case is linked to an account and has a proposed date';
-            cs.description = 'same her';
+            cs.description = 'same here';
+            //replace the ids with your organisation ids.
+            //Hard coding id is just for learning purpose not recommended while coding.
             cs.recordtypeId = '0128d0000009AhHAAU';
             cs.AccountId = '0018d000004Y56PAAS';
             cs.proposed_date__c = date.today()+5;
