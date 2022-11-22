@@ -238,7 +238,7 @@ console.warn('it might be a hack');*/
 // }
 // console.log("Your bank balance is : £3000");
 
-let isNewCustomer = false;
+let isNewCustomer = true;
 let accountType = "current";
 let isAccountActive = true;
 
@@ -248,8 +248,10 @@ if (
   isAccountActive
 ) {
   console.log("New product available to check for you");
+  pitchCreditCard(isNewCustomer);
 } else if (isNewCustomer) {
   console.log("WOuld you like to open a savings or current account");
+  pitchCreditCard(isNewCustomer);
 } else if (
   !isNewCustomer &&
   (accountType === "savings" || accountType === "current") &&
@@ -258,6 +260,12 @@ if (
   console.log("Support team would be contacting you in a while");
 } else {
   console.log("Please enter all data correctly");
+}
+
+function pitchCreditCard(checkNewCustomer) {
+  return checkNewCustomer
+    ? console.log("Need a Debit card?")
+    : console.log("Interested in a Credit card?");
 }
 
 // let user1Location = "UK";
