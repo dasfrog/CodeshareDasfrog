@@ -224,3 +224,50 @@ console.warn('it might be a hack');*/
 // console.log(y--);
 // console.log(y);
 // console.log(--y);
+
+// Conditional statements
+// let userLocation = "Mexico";
+// if (userLocation === "France") {
+//   console.log("Bonjour");
+// } else if (userLocation === "India") {
+//   console.log("Namaste");
+// } else if (userLocation === "Mexico") {
+//   console.log("Hola");
+// } else {
+//   console.log("Hello There");
+// }
+// console.log("Your bank balance is : £3000");
+
+let isNewCustomer = false;
+let accountType = "current";
+let isAccountActive = true;
+
+if (
+  !isNewCustomer &&
+  (accountType === "savings" || accountType === "current") &&
+  isAccountActive
+) {
+  console.log("New product available to check for you");
+} else if (isNewCustomer) {
+  console.log("WOuld you like to open a savings or current account");
+} else if (
+  !isNewCustomer &&
+  (accountType === "savings" || accountType === "current") &&
+  !isAccountActive
+) {
+  console.log("Support team would be contacting you in a while");
+} else {
+  console.log("Please enter all data correctly");
+}
+
+// let user1Location = "UK";
+// let user2Location = "India";
+// let user3Location = "France";
+// let user4Location = "Aus";
+
+// if (user1Location === "UK" || user2Location === "India") {
+//   console.log("this is cricket news for you");
+// }
+// if (user3Location === "France") {
+//   console.log("this is football news for you");
+// }
