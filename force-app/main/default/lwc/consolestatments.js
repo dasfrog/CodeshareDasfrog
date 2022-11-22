@@ -188,7 +188,39 @@ console.warn('it might be a hack');*/
 // x /= 10;
 // console.log(x);
 
-let x = 8;
-let y = "blah";
-let z = x + y;
-console.log(z);
+// let x = 8;
+// let y = "blah";
+// let z = x + y;
+// console.log(z);
+
+//Comparision
+// let x = 10;
+// let y = 10;
+// console.log(x == y);
+
+// let x = 9;
+// let y = "9";
+// console.log(x === y);
+
+// let x = 9000;
+// let y = 90000;
+// console.log(x < y);
+
+// let x = 90000;
+// let y = 90000;
+// console.log(x >= y);
+
+//Arthemetic
+// let x = 10;
+// let y = 4;
+// console.log(x % y);
+
+//increment and decrement operator
+// let x = 10;
+// let y = 4;
+// console.log(x++);
+// console.log(x);
+// console.log(++x);
+// console.log(y--);
+// console.log(y);
+// console.log(--y);
