@@ -238,35 +238,35 @@ console.warn('it might be a hack');*/
 // }
 // console.log("Your bank balance is : £3000");
 
-let isNewCustomer = true;
-let accountType = "current";
-let isAccountActive = true;
+// let isNewCustomer = true;
+// let accountType = "current";
+// let isAccountActive = true;
 
-if (
-  !isNewCustomer &&
-  (accountType === "savings" || accountType === "current") &&
-  isAccountActive
-) {
-  console.log("New product available to check for you");
-  pitchCreditCard(isNewCustomer);
-} else if (isNewCustomer) {
-  console.log("WOuld you like to open a savings or current account");
-  pitchCreditCard(isNewCustomer);
-} else if (
-  !isNewCustomer &&
-  (accountType === "savings" || accountType === "current") &&
-  !isAccountActive
-) {
-  console.log("Support team would be contacting you in a while");
-} else {
-  console.log("Please enter all data correctly");
-}
+// if (
+//   !isNewCustomer &&
+//   (accountType === "savings" || accountType === "current") &&
+//   isAccountActive
+// ) {
+//   console.log("New product available to check for you");
+//   pitchCreditCard(isNewCustomer);
+// } else if (isNewCustomer) {
+//   console.log("WOuld you like to open a savings or current account");
+//   pitchCreditCard(isNewCustomer);
+// } else if (
+//   !isNewCustomer &&
+//   (accountType === "savings" || accountType === "current") &&
+//   !isAccountActive
+// ) {
+//   console.log("Support team would be contacting you in a while");
+// } else {
+//   console.log("Please enter all data correctly");
+// }
 
-function pitchCreditCard(checkNewCustomer) {
-  return checkNewCustomer
-    ? console.log("Need a Debit card?")
-    : console.log("Interested in a Credit card?");
-}
+// function pitchCreditCard(checkNewCustomer) {
+//   return checkNewCustomer
+//     ? console.log("Need a Debit card?")
+//     : console.log("Interested in a Credit card?");
+// }
 
 // let user1Location = "UK";
 // let user2Location = "India";
@@ -279,3 +279,22 @@ function pitchCreditCard(checkNewCustomer) {
 // if (user3Location === "France") {
 //   console.log("this is football news for you");
 // }
+
+let holidayOrWorking = 1;
+switch (holidayOrWorking) {
+  case 1:
+  case 2:
+  case 3:
+  case 4:
+  case 5:
+    console.log("Working");
+    break;
+  case 6:
+  case 7:
+    console.log("Holiday");
+    break;
+
+  default:
+    console.log("invalid day of week");
+    break;
+}
