@@ -280,21 +280,47 @@ console.warn('it might be a hack');*/
 //   console.log("this is football news for you");
 // }
 
-let holidayOrWorking = 1;
-switch (holidayOrWorking) {
-  case 1:
-  case 2:
-  case 3:
-  case 4:
-  case 5:
-    console.log("Working");
-    break;
-  case 6:
-  case 7:
-    console.log("Holiday");
-    break;
+// let holidayOrWorking = 1;
+// switch (holidayOrWorking) {
+//   case 1:
+//   case 2:
+//   case 3:
+//   case 4:
+//   case 5:
+//     console.log("Working");
+//     break;
+//   case 6:
+//   case 7:
+//     console.log("Holiday");
+//     break;
 
-  default:
-    console.log("invalid day of week");
-    break;
-}
+//   default:
+//     console.log("invalid day of week");
+//     break;
+// }
+//"a", "b", "c", "d", "e"
+
+//for loop
+// for (let x = 0; x < 10; x++) {
+//   console.log(x);
+// }
+
+// let arrayalphabets = ["a", "b", "c", "d", "e"];
+// for (let x = 0; x < arrayalphabets.length; x++) {
+//   if (arrayalphabets[x] === "c" || arrayalphabets[x] === "e")
+//     console.log(arrayalphabets[x]);
+// }
+
+//while loop
+// let x = 0;
+// while (x < 10) {
+//   console.log(x);
+//   x++;
+// }
+
+//do while loop
+// let x = 0;
+// do {
+//   console.log(x);
+//   x++;
+// } while (x < 10);
